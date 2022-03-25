@@ -25,11 +25,91 @@ html {
   padding: 11px;
   display: none;
 }
-#correct {
+#wrong {
   position: absolute;
   left: 260px;
   background-color: #de401a;
   color: white;
   padding: 11px;
   display: none;
+}
+#question {
+  width: 400px;
+  height: 150px;
+  margin: 50px auto 10px auto;
+  background-color: #9da0ea;
+  font-size: 100px;
+  text-align: center;
+  font-family: cursive, sans-serif;
+}
+#instruction {
+  width: 450px;
+  height: 50px;
+  background-color: #b481d9;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 45px;
+}
+#choices {
+  width: 450px;
+  height: 100px;
+  margin: 5px auto;
+}
+.box {
+  height: 85px;
+  width: 85px;
+  background-color: white;
+  float: left;
+  margin-right: 36px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 80px;
+}
+#box4 {
+  margin-right: 0;
+}
+.box:hover,
+#startreset:hover {
+  background-color: #9c89f6;
+  color: white;
+}
+#startreset {
+  width: 80px;
+  height: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+}
+#timeremaining {
+  width: 152px;
+  padding: 10px;
+  position: absolute;
+  top: 395px;
+  left: 400px;
+  background-color: rgba(181, 235, 36, 0.8);
+  display: none;
+}
+#gameOver {
+  height: 200px;
+  width: 500px;
+  background: linear-gradient(#f3ca6b, #f3706c);
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 100px;
+  left: 45px;
+  z-index: 2;
+  display: none;
+}
+#developer {
+  margin: 100px auto;
+  padding: 20px;
+  position: absolute;
+  top: 430px;
+  left: 645px;
+  color: brown;
 }
