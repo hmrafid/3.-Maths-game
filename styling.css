@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  background: radial-gradient(circle, #fff, #ccc);
+}
+#container {
+  height: 400px;
+  width: 550px;
+  background-color: #9dd2ea;
+  margin: 100px auto;
+  padding: 20px;
+  position: relative;
+}
+#score {
+  background-color: #f1ff92;
+  color: #888e5f;
+  padding: 10px;
+  position: absolute;
+  left: 500px;
+}
+#correct {
+  position: absolute;
+  left: 260px;
+  background-color: #42e252;
+  color: white;
+  padding: 11px;
+  display: none;
+}
+#correct {
+  position: absolute;
+  left: 260px;
+  background-color: #de401a;
+  color: white;
+  padding: 11px;
+  display: none;
+}
